@@ -42,7 +42,7 @@
         console.log('Error getting document', err);
     });
         }).catch(error => {
-        console.error(error);
+        alert(error);
         })
       });
     }
@@ -54,7 +54,7 @@
             // Sign in success
             window.location.href="dob.html";
         }).catch(error => {
-        console.error(error);
+        alert(error);
         })
       });
     }
